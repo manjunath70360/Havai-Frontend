@@ -1,0 +1,120 @@
+.airport-table-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #ddd;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: Source Sans 3;
+font-size: 22px;
+font-weight: 700;
+line-height: 27.65px;
+text-align: left;
+
+}
+h2{
+  font-family: Source Sans 3;
+font-size: 14px;
+font-weight: 600;
+line-height: 17.6px;
+text-align: left;
+}
+
+.checkbox{
+  border: 2px solid #464646;
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  margin-right: 14px;
+  width: Fixed (48px)px;
+height: Hug (272px)px;
+gap: 0px;
+opacity: 0px;
+
+}
+.add-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.header-checkbox{
+  display: flex;
+  align-items: center;
+  flex: 3;
+  padding-left: 10px;
+}
+.row-checkbox {
+  display: flex;
+  align-items: center;
+  flex: 4;
+  padding-left: 10px;
+}
+.header-checkbox h2, .row-checkbox h2 {
+  margin-left: 10px;
+}
+
+.header-details{
+  display: flex;
+  flex: 4;
+  justify-content: space-around;
+}
+.last-space{
+  margin-right: 20%;
+}
+.row-details {
+  display: flex;
+  flex: 5;
+  justify-content: space-around;
+}
+
+
+.header-details h2, .row-details h2 {
+  flex: 1;
+  text-align: center;
+}
+
+.row-actions {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.edit-btn, .delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  color: #007bff; /* or any color of your choice */
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row:hover {
+  background-color: #f9f9f9;
+}

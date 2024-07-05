@@ -1,0 +1,254 @@
+.edit-container{
+ padding: 12px 18px 24px 18px;
+}
+.edit-name{
+    display: flex;
+    align-items: center;
+}
+.side-header{
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27.65px;
+    text-align: left;
+}
+.side-header-bold{
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27.65px;
+    text-align: left;
+}
+.header{
+    font-family: Source Sans 3;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 27.65px;
+    text-align: left;
+    margin-top: 5px;
+}
+.tab-con{
+    display: flex;
+    align-items: center;
+
+}
+.tab-name{
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27.65px;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 4px;
+}
+.card-con{
+    display: flex;
+    align-items: center;
+
+}
+.card{
+    width: 280px;
+    height: 120px;
+    display: flex;
+    border-right: 1px solid #E6E6E6;
+    margin: 14px;
+}
+.card-img{
+    width: 120px;
+    height: 120px;
+}
+.card-text-details{
+    padding: 16px;
+    border: 1px solid #E6E6E6
+}
+.text-dots{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.terminal-name{
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.6px;
+    text-align: left;
+    margin: 0px;
+}
+.more-options{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.description{
+    font-family: Source Sans 3;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.terminal-btn{
+width: 180px;
+height: 40px;
+border-radius: 100px;
+border: 2px solid #222222;
+color: #222222;
+background-color: transparent;
+font-family: Source Sans 3;
+font-size: 12px;
+font-weight: 600;
+}
+.side-headers{
+    font-family: Source Sans 3;
+font-size: 22px;
+font-weight: 700;
+line-height: 27.65px;
+text-align: left;
+
+}
+.btn{
+    cursor: pointer;
+}
+.service-head{
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+.option-con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.lost{
+    border: 1px solid #B1B1B1;
+    font-family: Source Sans 3;
+    font-size: 14px;
+    width: 120px;
+    height: 32px;
+    font-weight: 400;
+}
+.select, option{
+    border: 1px solid #B1B1B1;
+    width: 120px;
+    height: 32px;
+    font-family: Source Sans 3;
+margin-bottom: 20px;
+}
+.file-btn{
+    background: #E6E6E6;
+    width: Hug (137px)px;
+height: Fixed (32px)px;
+padding: 6px 15px 7px 14px;
+border-radius: 60px;
+display: flex;
+border: none;
+font-weight: 500;
+margin-top: 25px;
+align-items: center;
+
+}
+.upload{
+    margin-right: 4px;
+}
+.save{
+    margin-top: 25px;
+}
+
+/* model */
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    max-width: 80%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .modal-input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .modal-btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .btn{
+    cursor: pointer;
+  }
+  
+  .modal-upload-btn {
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .modal-cancel-btn {
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 25px;
+    width: 110px;
+    height: 35px;
+  }
+  
+  .modal-continue-btn {
+    background-color: #333;
+    color: #fff;
+    border-radius: 25px;
+    width: 110px;
+    height: 35px;
+  }
+  

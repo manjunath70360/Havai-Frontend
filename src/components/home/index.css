@@ -1,0 +1,194 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.app-container{
+  width: 100vw;
+  height: 100vh;
+}
+.name{
+font-family: roboto;
+font-size: 26px;
+font-weight: 500;
+color: #000000;
+}
+.account-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+
+.header-container{
+height: 60px;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0px 2px 4px 0px #0000000D;
+position: fixed;
+width: 98%;
+background-color: white;
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+
+}
+.side-bar-container{
+  width: 130px !important;
+  height: 82vh;
+padding: 20px;
+box-shadow: 0px 1px 4px 0px #00000026;
+padding-bottom: 25px;
+position: fixed;
+margin-top: 60px;
+
+}
+.icon-name-con{
+  display: flex;
+  align-items: center;
+  padding: 7px 12px 8px 12px;
+}
+.icon{
+font-size: 21px;
+margin: 0px;
+margin-right: 10px;
+}
+.icon-name{
+  font-family: roboto;
+  font-size: 14px;
+  color: #222222;
+  margin: 0px;
+  font-weight: 400;
+}
+.list{
+  list-style: none;
+
+  padding: 0px;
+  margin-top: 28px;
+}
+.side-head{
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 400;
+  color: #222222;
+}
+.item{
+font-family: roboto;
+font-size: 14px;
+font-weight: 300;
+color: #222222;
+padding: 7px 12px 8px 12px;
+}
+.active{
+  background: #0000000F;
+  width: Fill (100px)px;
+height: Fixed (34px)px;
+padding: 7px 12px 8px 12px;
+border-radius: 4px;
+
+
+}
+.content-container{
+width: 75vw;
+padding: 20px 30px 20px 30px;
+margin-top: 20px;
+margin-left: 170px;
+}
+.heading-add-con{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header{
+  font-family: Source Sans 3;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27.65px;
+  text-align: left;
+  
+}
+.add-btn{
+  width: Hug (96px)px;
+height: Fixed (32px)px;
+padding: 6px 17px 7px 17px;
+gap: 8px;
+border-radius: 50px;
+opacity: 0px;
+background: #000000E5;
+color: white;
+font-family: Source Sans 3;
+font-size: 14px;
+}
+.table-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name-check{
+  display: flex;
+  align-items: center;
+  height: Hug (272px)px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.checkbox{
+  border: 2px solid #464646;
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  margin-right: 14px;
+  width: Fixed (48px)px;
+height: Hug (272px)px;
+gap: 0px;
+opacity: 0px;
+
+}
+.other-details{
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+}
+.table-col{
+font-family: Source Sans 3;
+font-size: 14px;
+font-weight: 600;
+line-height: 17.6px;
+text-align: left;
+width: Fixed (100px)px;
+height: Hug (272px)px;
+
+
+}
+.table-col-1{
+  font-family: Source Sans 3;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: left;
+  width: Fill (100px)px;
+height: Hug (32px)px;
+padding: 6px 16px 8px 16px;
+gap: 0px;
+opacity: 0px;
+width: Fixed (95px)px;
+
+}
+.main-table{
+  border: 1px solid #D5D5D5;
+
+}
+.table{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.row-actions{
+  display: flex;
+  align-items: center;
+}
